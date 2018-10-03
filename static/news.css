@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    max-width: 50em;
+    margin: 1em auto;
+    display: grid;
+    grid-gap: 1em;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.row section,
+.row article {
+    padding: 0.5em;
+}
+header, footer {
+    text-align: center;
+}
+footer {
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+article .back-btn {
+    margin-top: auto;
+}

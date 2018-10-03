@@ -2,4 +2,4 @@
 
 ## Heroku
 
-<https://reyniraron-v3.herokuapp.com/>
+https://verkefni3vef300.herokuapp.com/
